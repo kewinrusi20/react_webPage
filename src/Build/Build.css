@@ -1,0 +1,12 @@
+.Build {
+    display: inline-block;
+    background-color: rgb(223, 125, 125);
+}
+
+.Build p {
+    display: inline-block;
+
+    margin: 0px 1px 0px 6px;
+    border: 0px;
+    padding: 0px;
+}

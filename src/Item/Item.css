@@ -1,0 +1,18 @@
+.Item {
+    display: inline-block;
+
+    margin: 1px;
+    border: solid 1px black;
+    border-radius: 3px;
+
+
+}
+
+.Item img {
+    width: 20px;
+}
+
+.Item:hover {
+    border: solid 1px yellow;
+    background-color: rgba(255, 255, 255, 0.678);
+}

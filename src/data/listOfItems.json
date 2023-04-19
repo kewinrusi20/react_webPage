@@ -1,0 +1,48 @@
+{
+  "onTheWay":  {
+    "title": "On The Way",
+    "sets": [
+      [
+        { "name": "ThousandEdge", "type": "WeaponsEvolved" },
+        { "name": "Knife", "type": "WeaponsBase" },
+        { "name": "Bracer", "type": "Passive" }
+      ],
+      [
+        { "name": "BloodyTear", "type": "WeaponsEvolved" },
+        { "name": "Whip", "type": "WeaponsBase" },
+        { "name": "HollowHeart", "type": "Passive" }
+      ],
+      [
+        { "name": "Fuwalafuwaloo", "type": "WeaponsEvolved" },
+        { "name": "VentoSacro", "type": "WeaponsBase" }
+      ],
+      [
+        { "name": "CrimsonShroud", "type": "WeaponsEvolved" },
+        { "name": "Laurel", "type": "WeaponsBase" },
+        { "name": "MetaglioLeft", "type": "Passive" },
+        { "name": "MetaglioRight", "type": "Passive" }
+      ]
+    ]
+  },
+  "blast":  {
+    "title": "Blast",
+    "sets": [
+      [
+        { "name": "ThousandEdge", "type": "WeaponsEvolved" },
+        { "name": "Knife", "type": "WeaponsBase" }
+      ],
+      [
+        { "name": "BloodyTear", "type": "WeaponsEvolved" },
+        { "name": "Whip", "type": "WeaponsBase" }
+      ],
+      [
+        { "name": "Fuwalafuwaloo", "type": "WeaponsEvolved" },
+        { "name": "VentoSacro", "type": "WeaponsBase" }
+      ],
+      [
+        { "name": "CrimsonShroud", "type": "WeaponsEvolved" },
+        { "name": "Laurel", "type": "WeaponsBase" }
+      ]
+    ]
+  }
+}
