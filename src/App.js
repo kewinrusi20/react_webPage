@@ -1,23 +1,21 @@
 import './App.css';
 import Build from './Build/Build.js';
-import WindowCategory from './WindowCategory/WindowCategory.js';
-import listOfItems from './data/listOfItems.json'
+import Category from './Container/Container.js';
+import CategoryList from './data/CategoryList.json'
 
 function App() {
   return (
     <div className="App">
 
-      <div className="WindowCategory_List">
-          <WindowCategory group={listOfItems.onTheWay}/>
-          <WindowCategory group={listOfItems.blast}/>
-          {/* <WindowCategory group="Blast"/>
-          <WindowCategory group="Orbit"/>
-          <WindowCategory group="Screen"/>
-          <WindowCategory group="Special"/> */}
+      <div className="CategoryList">
+          <Category category={CategoryList.onTheWay}/>
+          <Category category={CategoryList.blast}/>
+          <Category category={CategoryList.orbit}/>
+          <Category category={CategoryList.screen}/>
+          <Category category={CategoryList.special}/>
         </div>
-        
-        <Build />
 
+        <Build />
     </div>
   );
 }
