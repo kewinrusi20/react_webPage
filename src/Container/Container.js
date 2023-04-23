@@ -31,12 +31,17 @@ function Set({set}) {
 
 
 /*ITEM*/
+
+function onClickItem(event){
+	console.log(event.target.id)
+}
+
 function Item({item}) {
     const imagePath = "/assets/" + item.type + "/" + item.name +".png" ;
-    console.log(imagePath);
+    //console.log(imagePath);
 
     return (
-        <div className="Item">
+        <div className="Item" id={item.name} onClick={onClickItem} >
             <img src={imagePath} alt={item.name} />
         </div>
     )
