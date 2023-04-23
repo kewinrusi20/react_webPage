@@ -18,6 +18,10 @@
         { "name":"Laurel", "type":"WeaponsBase" },
         { "name":"MetaglioLeft", "type":"Passive" },
         { "name":"MetaglioRight", "type":"Passive" }
+      ],[
+        { "name":"JOdore", "type":"WeaponsEvolved" },
+        { "name":"MirageRobe", "type":"WeaponsBase" },
+        { "name":"Attractorb", "type":"Passive" }
       ]
     ]
   },
@@ -46,12 +50,25 @@
         { "name":"HeavenSword", "type":"WeaponsEvolved" },
         { "name":"Cross", "type":"WeaponsBase" },
         { "name":"Clover", "type":"Passive" }
+      ],[
+        { "name":"Muramasa", "type":"WeaponsEvolved" },
+        { "name":"NightSword", "type":"WeaponsBase" },
+        { "name":"StoneMask", "type":"Passive" }
+      ],[
+        {"name":"Millionaire", "type":"WeaponsEvolved" },
+        {"name":"FlashArrow", "type":"WeaponsBase" },
+        {"name":"Bracer", "type":"Passive" },
+        {"name":"Clover", "type":"Passive" }
+      ],[
+        { "name":"BooRooBoolle", "type":"WeaponsEvolved" },
+        { "name":"MilleBolleBlu", "type":"WeaponsBase" },
+        { "name":"Spellbinder", "type":"Passive" }
       ]
     ]
   },
 
   "orbit":  {
-    "title": "Orbin",
+    "title": "Orbit",
     "sets": [
       [
         { "name":"InfiniteCorridor", "type":"WeaponsEvolved" },
@@ -82,6 +99,16 @@
         { "name":"Vandalier", "type":"WeaponsEvolved" },
         { "name":"Peachone", "type":"WeaponsBase" },
         { "name":"EbonyWings", "type":"WeaponsBase" }
+      ],[
+        {"name":"SpellStrom", "type":"WeaponsEvolved" },
+        {"name":"SpellStrike", "type":"WeaponsBase" },
+        {"name":"SpellStream", "type":"WeaponsBase" },
+        {"name":"SpellString", "type":"WeaponsBase" },
+        {"name":"AcademyBadge", "type":"Passive" }
+      ],[
+        {"name":"Legionnaire", "type":"WeaponsEvolved" },
+        {"name":"Eskizzibur", "type":"WeaponsBase" },
+        {"name":"Armor", "type":"Passive" }
       ]
     ]
   },
@@ -123,6 +150,18 @@
         { "name":"PhieraDerTuphello", "type":"WeaponsBase" },
         { "name":"EightTheSparrow", "type":"WeaponsBase" },
         { "name":"Tiragisu", "type":"Passive" }
+      ],[
+        { "name":"EchoNight", "type":"WeaponsEvolved" },
+        { "name":"SummonNight", "type":"WeaponsBase" },
+        { "name":"Duplicator", "type":"Passive" }
+      ],[
+        {"name":"Ophion", "type":"WeaponsEvolved" },
+        {"name":"ShadowServant", "type":"WeaponsBase" },
+        {"name":"SkullOManiac", "type":"Passive" }
+      ],[
+        {"name":"Luminaire", "type":"WeaponsEvolved" },
+        {"name":"PrismaticMissile", "type":"WeaponsBase" },
+        {"name":"Crown", "type":"Passive" }
       ]
     ]
   },
@@ -131,8 +170,8 @@
     "title": "Special",
     "sets": [
       [
-        { "name":"SpriteBiBracelet", "type":"WeaponsEvolved" },
         { "name":"SpriteTriBracelet", "type":"WeaponsEvolved" },
+        { "name":"SpriteBiBracelet", "type":"WeaponsEvolved" },
         { "name":"SpriteBracelet", "type":"WeaponsBase" }
       ],[
         { "name":"Bone", "type":"WeaponsBase" }
