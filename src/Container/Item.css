@@ -1,4 +1,4 @@
-.Item {
+.ItemCss {
     background-color: rgb(114, 17, 17);
     display: inline-block;
 
@@ -8,11 +8,11 @@
     padding: 3px 2px 0px 2px;
 }
 
-.Item img {
-    width: 20px;
+.ItemCss img {
+    width: 40px;
 }
 
-.Item:hover {
+.ItemCss:hover {
     border: solid 1px white;
     background-color: rgba(255, 255, 255, 0.678);
 }
