@@ -4,14 +4,14 @@ import "./Item.css"
 
 
 /*CATEGORY*/
-function Category({category}) {
+function CategoryF({categoryR}) {
     
     return(
-        <div className="Category">
-            <h3>{category.title}</h3>
+        <div className="CategoryCss">
+            <h3>{categoryR.title}</h3>
 
-            <div className="CategoryGroups">
-                {category.sets.map(set => <Set set={set}/> )}
+            <div className="CategoryCssGroups">
+                {categoryR.sets.map(setE => <SetF setR={setE}/> )}
             </div>
 
         </div>
@@ -20,11 +20,11 @@ function Category({category}) {
 
 
 /*SET*/
-function Set({set}) {
+function SetF({setR}) {
 
     return(
-        <div className="Set">
-          {set.map(item => <Item item={item}/> )}
+        <div className="SetCss">
+          {setR.map(itemE => <Item itemR={itemE}/> )}
         </div>
     )
   }
@@ -36,15 +36,15 @@ function onClickItem(event){
 	console.log(event.target.id)
 }
 
-function Item({item}) {
-    const imagePath = "/assets/" + item.type + "/" + item.name +".png" ;
-    //console.log(imagePath);
+function Item({itemR}) {
+    const imagePath = "/assets/" + itemR.type + "/" + itemR.name +".png" ;
+    //console.log(imagePath);e
 
     return (
-        <div className="Item" id={item.name} onClick={onClickItem} >
-            <img src={imagePath} alt={item.name} />
+        <div className="ItemCss" id={itemR.name} onClick={onClickItem} >
+            <img src={imagePath} alt={itemR.name} />
         </div>
     )
 }
 
-export default Category;
+export default CategoryF;
