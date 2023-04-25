@@ -1,23 +1,19 @@
 [
   {
     "title": "On The Way",
-    "setList": [
-      {
+    "setList": [{
         "id":"set_OnTheWay_000",
         "itemList":[
         { "name":"ThousandEdge", "type":"WeaponsEvolved", "id":"ThousandEdge_00" },
         { "name":"Knife", "type":"WeaponsBase", "id":"ThousandEdge_01" },
         { "name":"Bracer", "type":"Passive", "id":"ThousandEdge_02" }
-        ]
-      },
-      {
+        ]},{
         "id":"set_OnTheWay_001",
         "itemList":[
         { "name":"BloodyTear", "type":"WeaponsEvolved", "id":"Fuwalafuwaloo_02" },
         { "name":"Whip", "type":"WeaponsBase", "id":"Fuwalafuwaloo_03" },
         { "name":"HollowHeart", "type":"Passive", "id":"Fuwalafuwaloo_04" }
-      ]},
-      {
+      ]},{
         "id":"set_OnTheWay_002",
         "itemList":[
         { "name":"Fuwalafuwaloo", "type":"WeaponsEvolved", "id":"Fuwalafuwaloo_00" },
@@ -25,30 +21,24 @@
         { "name":"BloodyTear", "type":"WeaponsEvolved", "id":"Fuwalafuwaloo_02" },
         { "name":"Whip", "type":"WeaponsBase", "id":"Fuwalafuwaloo_03" },
         { "name":"HollowHeart", "type":"Passive", "id":"Fuwalafuwaloo_04" }
-      ]},
-      {
+      ]},{
         "id":"set_OnTheWay_003",
         "itemList":[
         { "name":"CrimsonShroud", "type":"WeaponsEvolved", "id":"CrimsonShroud_00" },
         { "name":"Laurel", "type":"WeaponsBase", "id":"CrimsonShroud_01" },
         { "name":"MetaglioLeft", "type":"Passive", "id":"CrimsonShroud_02" },
         { "name":"MetaglioRight", "type":"Passive", "id":"CrimsonShroud_03" }
-      ]},
-      {
+      ]},{
         "id":"set_OnTheWay_004",
         "itemList":[
         { "name":"JOdore", "type":"WeaponsEvolved", "id":"JOdore_00" },
         { "name":"MirageRobe", "type":"WeaponsBase", "id":"JOdore_01" },
         { "name":"Attractorb", "type":"Passive", "id":"JOdore_02" }
-      ]}
-    ]
-  },
-
+      ]}]},
 
   {
     "title": "Blast",
-    "setList": [
-      {
+    "setList": [{
         "id":"set_Blast_00",
         "itemList":[
         { "name":"HolyWand", "type":"WeaponsEvolved", "id":"HolyWand_00" },
@@ -97,11 +87,6 @@
         { "name":"BooRooBoolle", "type":"WeaponsEvolved", "id":"BooRooBoolle_00" },
         { "name":"MilleBolleBlu", "type":"WeaponsBase", "id":"BooRooBoolle_01" },
         { "name":"Spellbinder", "type":"Passive", "id":"BooRooBoolle_02" }
-      ]}
-    ]
-  }
-
-
-
+      ]}]}
 
 ]
