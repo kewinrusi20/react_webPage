@@ -8,8 +8,7 @@ function App() {
     <div className="App">
 
       <div className="CategoryList">
-      {CategoryList.map(categoryList_elem => <CategoryFunc categoryList_elem={categoryList_elem} key={categoryList_elem.title} />)}
-      {/*CategoryList.map( function (e) { return (<Category category={e} />)})*/}
+      {CategoryList.map(categoryList_e => <CategoryFunc categoryList_e={categoryList_e} key={categoryList_e.title} />)}
       </div>
 
         <Build />
