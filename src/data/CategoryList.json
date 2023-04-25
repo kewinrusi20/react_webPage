@@ -1,193 +1,107 @@
-{
-  "onTheWay":  {
+[
+  {
     "title": "On The Way",
-    "sets": [
-      [
-        { "name":"ThousandEdge", "type":"WeaponsEvolved" },
-        { "name":"Knife", "type":"WeaponsBase" },
-        { "name":"Bracer", "type":"Passive" }
-      ],[
-        { "name":"BloodyTear", "type":"WeaponsEvolved" },
-        { "name":"Whip", "type":"WeaponsBase" },
-        { "name":"HollowHeart", "type":"Passive" }
-      ],[
-        { "name":"Fuwalafuwaloo", "type":"WeaponsEvolved" },
-        { "name":"VentoSacro", "type":"WeaponsBase" }
-      ],[
-        { "name":"CrimsonShroud", "type":"WeaponsEvolved" },
-        { "name":"Laurel", "type":"WeaponsBase" },
-        { "name":"MetaglioLeft", "type":"Passive" },
-        { "name":"MetaglioRight", "type":"Passive" }
-      ],[
-        { "name":"JOdore", "type":"WeaponsEvolved" },
-        { "name":"MirageRobe", "type":"WeaponsBase" },
-        { "name":"Attractorb", "type":"Passive" }
-      ]
+    "setList": [
+      {
+        "id":"set_OnTheWay_000",
+        "itemList":[
+        { "name":"ThousandEdge", "type":"WeaponsEvolved", "id":"ThousandEdge_00" },
+        { "name":"Knife", "type":"WeaponsBase", "id":"ThousandEdge_01" },
+        { "name":"Bracer", "type":"Passive", "id":"ThousandEdge_02" }
+        ]
+      },
+      {
+        "id":"set_OnTheWay_001",
+        "itemList":[
+        { "name":"BloodyTear", "type":"WeaponsEvolved", "id":"Fuwalafuwaloo_02" },
+        { "name":"Whip", "type":"WeaponsBase", "id":"Fuwalafuwaloo_03" },
+        { "name":"HollowHeart", "type":"Passive", "id":"Fuwalafuwaloo_04" }
+      ]},
+      {
+        "id":"set_OnTheWay_002",
+        "itemList":[
+        { "name":"Fuwalafuwaloo", "type":"WeaponsEvolved", "id":"Fuwalafuwaloo_00" },
+        { "name":"VentoSacro", "type":"WeaponsBase", "id":"Fuwalafuwaloo_01" },
+        { "name":"BloodyTear", "type":"WeaponsEvolved", "id":"Fuwalafuwaloo_02" },
+        { "name":"Whip", "type":"WeaponsBase", "id":"Fuwalafuwaloo_03" },
+        { "name":"HollowHeart", "type":"Passive", "id":"Fuwalafuwaloo_04" }
+      ]},
+      {
+        "id":"set_OnTheWay_003",
+        "itemList":[
+        { "name":"CrimsonShroud", "type":"WeaponsEvolved", "id":"CrimsonShroud_00" },
+        { "name":"Laurel", "type":"WeaponsBase", "id":"CrimsonShroud_01" },
+        { "name":"MetaglioLeft", "type":"Passive", "id":"CrimsonShroud_02" },
+        { "name":"MetaglioRight", "type":"Passive", "id":"CrimsonShroud_03" }
+      ]},
+      {
+        "id":"set_OnTheWay_004",
+        "itemList":[
+        { "name":"JOdore", "type":"WeaponsEvolved", "id":"JOdore_00" },
+        { "name":"MirageRobe", "type":"WeaponsBase", "id":"JOdore_01" },
+        { "name":"Attractorb", "type":"Passive", "id":"JOdore_02" }
+      ]}
     ]
   },
 
 
-  "blast":  {
+  {
     "title": "Blast",
-    "sets": [
-      [
-        { "name":"HolyWand", "type":"WeaponsEvolved" },
-        { "name":"MagicWand", "type":"WeaponsBase" },
-        { "name":"EmptyTome", "type":"Passive"}
-      ],[
-        { "name":"Hellfire", "type":"WeaponsEvolved" },
-        { "name":"FireWand", "type":"WeaponsBase" },
-        { "name":"Spinach", "type":"Passive" }
-      ],[
-        { "name":"AshesOfMuspell", "type":"WeaponsEvolved" },
-        { "name":"FlamesOfMisspell", "type":"WeaponsBase" },
-        { "name":"TorronasBox", "type":"Passive" }
-      ],[
-        { "name":"ValkyrieTurner", "type":"WeaponsEvolved" },
-        { "name": "ShadowPinion", "type":"WeaponsBase" },
-        { "name":"Wings", "type":"Passive" }
-      ],[
-        { "name":"HeavenSword", "type":"WeaponsEvolved" },
-        { "name":"Cross", "type":"WeaponsBase" },
-        { "name":"Clover", "type":"Passive" }
-      ],[
-        { "name":"Muramasa", "type":"WeaponsEvolved" },
-        { "name":"NightSword", "type":"WeaponsBase" },
-        { "name":"StoneMask", "type":"Passive" }
-      ],[
-        {"name":"Millionaire", "type":"WeaponsEvolved" },
-        {"name":"FlashArrow", "type":"WeaponsBase" },
-        {"name":"Bracer", "type":"Passive" },
-        {"name":"Clover", "type":"Passive" }
-      ],[
-        { "name":"BooRooBoolle", "type":"WeaponsEvolved" },
-        { "name":"MilleBolleBlu", "type":"WeaponsBase" },
-        { "name":"Spellbinder", "type":"Passive" }
-      ]
-    ]
-  },
-
-  "orbit":  {
-    "title": "Orbit",
-    "sets": [
-      [
-        { "name":"InfiniteCorridor", "type":"WeaponsEvolved" },
-        { "name":"ClockLancet", "type":"WeaponsBase" },
-        { "name":"SilverRing", "type":"Passive" },
-        { "name":"GoldRing", "type":"Passive" }
-      ],[
-        { "name":"LaBorra", "type":"WeaponsEvolved" },
-        { "name":"SantaWater", "type":"WeaponsBase" },
-        { "name":"Attractorb", "type":"Passive" }
-      ],[
-        { "name":"UnholyVespers", "type":"WeaponsEvolved" },
-        { "name":"KingBible", "type":"WeaponsBase" },
-        { "name":"Spellbinder", "type":"Passive" }
-      ],[
-        { "name":"SoulEater", "type":"WeaponsEvolved" },
-        { "name":"Garlic", "type":"WeaponsBase" },
-        { "name":"Pummarola", "type":"Passive" }
-      ],[
-        { "name":"Mannajja", "type":"WeaponsEvolved" },
-        { "name":"SongOfMana", "type":"WeaponsBase" },
-        { "name":"SkullOManiac", "type":"Passive" }
-      ],[
-        { "name":"FestiveWinds", "type":"WeaponsEvolved" },
-        { "name":"SilverWind", "type":"WeaponsBase" },
-        { "name":"Pummarola", "type":"Passive" }
-      ],[
-        { "name":"Vandalier", "type":"WeaponsEvolved" },
-        { "name":"Peachone", "type":"WeaponsBase" },
-        { "name":"EbonyWings", "type":"WeaponsBase" }
-      ],[
-        {"name":"SpellStrom", "type":"WeaponsEvolved" },
-        {"name":"SpellStrike", "type":"WeaponsBase" },
-        {"name":"SpellStream", "type":"WeaponsBase" },
-        {"name":"SpellString", "type":"WeaponsBase" },
-        {"name":"AcademyBadge", "type":"Passive" }
-      ],[
-        {"name":"Legionnaire", "type":"WeaponsEvolved" },
-        {"name":"Eskizzibur", "type":"WeaponsBase" },
-        {"name":"Armor", "type":"Passive" }
-      ]
-    ]
-  },
-
-  "screen":  {
-    "title": "Screen",
-    "sets": [
-      [
-        { "name":"SoleSolution", "type":"WeaponsEvolved" },
-        { "name":"VictorySword", "type":"WeaponsBase" },
-        { "name":"TorronasBox", "type":"Passive" }
-      ],[
-        { "name":"GodaiShuffle", "type":"WeaponsEvolved" },
-        { "name":"FourSeasons", "type":"WeaponsBase" },
-        { "name":"Spinach", "type":"Passive" },
-        { "name":"Candelabrador", "type":"Passive" }
-      ],[
-        { "name":"ViciousHunger", "type":"WeaponsEvolved" },
-        { "name":"GattiAmari", "type":"WeaponsBase" },
-        { "name":"StoneMask", "type":"Passive" }
-      ],[
-        { "name":"NoFUTURE", "type":"WeaponsEvolved" },
-        { "name":"Runetracer", "type":"WeaponsBase" },
-        { "name":"Armor", "type":"Passive" }
-      ],[
-        { "name":"ThunderLoop", "type":"WeaponsEvolved" },
-        { "name":"Lightning Ring", "type":"WeaponsBase" },
-        { "name":"Duplicator", "type":"Passive" }
-      ],[
-        { "name":"DeathSpiral", "type":"WeaponsEvolved" },
-        { "name":"Axe", "type":"WeaponsBase" },
-        { "name":"Candelabrador", "type":"Passive" }
-      ],[
-        { "name":"GorgeousMoon", "type":"WeaponsEvolved" },
-        { "name":"Pentagram", "type":"WeaponsBase" },
-        { "name":"Crown", "type":"Passive" }
-      ],[
-        { "name":"Phieraggi", "type":"WeaponsEvolved" },
-        { "name":"PhieraDerTuphello", "type":"WeaponsBase" },
-        { "name":"EightTheSparrow", "type":"WeaponsBase" },
-        { "name":"Tiragisu", "type":"Passive" }
-      ],[
-        { "name":"EchoNight", "type":"WeaponsEvolved" },
-        { "name":"SummonNight", "type":"WeaponsBase" },
-        { "name":"Duplicator", "type":"Passive" }
-      ],[
-        {"name":"Ophion", "type":"WeaponsEvolved" },
-        {"name":"ShadowServant", "type":"WeaponsBase" },
-        {"name":"SkullOManiac", "type":"Passive" }
-      ],[
-        {"name":"Luminaire", "type":"WeaponsEvolved" },
-        {"name":"PrismaticMissile", "type":"WeaponsBase" },
-        {"name":"Crown", "type":"Passive" }
-      ]
-    ]
-  },
-
-  "special":  {
-    "title": "Special",
-    "sets": [
-      [
-        { "name":"SpriteTriBracelet", "type":"WeaponsEvolved" },
-        { "name":"SpriteBiBracelet", "type":"WeaponsEvolved" },
-        { "name":"SpriteBracelet", "type":"WeaponsBase" }
-      ],[
-        { "name":"Bone", "type":"WeaponsBase" }
-      ],[
-        { "name":"GreatestJubilee", "type":"WeaponsBase" }
-      ],[
-        { "name":"CherryBomb", "type":"WeaponsBase" }
-      ],[
-        { "name":"Carrello", "type":"WeaponsBase" }
-      ],[
-        { "name":"CelestialDusting", "type":"WeaponsBase" }
-      ],[
-        { "name":"Bocce", "type":"WeaponsBase" }
-      ],[
-        { "name":"LaRobba", "type":"WeaponsBase" }
-      ]
+    "setList": [
+      {
+        "id":"set_Blast_00",
+        "itemList":[
+        { "name":"HolyWand", "type":"WeaponsEvolved", "id":"HolyWand_00" },
+        { "name":"MagicWand", "type":"WeaponsBase", "id":"HolyWand_01" },
+        { "name":"EmptyTome", "type":"Passive", "id":"HolyWand_02" }
+      ]},{
+        "id":"set_Blast_01",
+        "itemList":[
+        { "name":"Hellfire", "type":"WeaponsEvolved", "id":"Hellfire_00" },
+        { "name":"FireWand", "type":"WeaponsBase", "id":"Hellfire_01" },
+        { "name":"Spinach", "type":"Passive", "id":"Hellfire_02" }
+      ]},{
+        "id":"set__02",
+        "itemList":[
+        { "name":"AshesOfMuspell", "type":"WeaponsEvolved", "id":"AshesOfMuspell_00" },
+        { "name":"FlamesOfMisspell", "type":"WeaponsBase", "id":"AshesOfMuspell_01" },
+        { "name":"TorronasBox", "type":"Passive", "id":"AshesOfMuspell_02" }
+      ]},{
+        "id":"set_Blast_03",
+        "itemList":[
+        { "name":"ValkyrieTurner", "type":"WeaponsEvolved", "id":"ValkyrieTurner_00" },
+        { "name": "ShadowPinion", "type":"WeaponsBase", "id":"ValkyrieTurner_01" },
+        { "name":"Wings", "type":"Passive", "id":"ValkyrieTurner_02" }
+      ]},{
+        "id":"set_Blast_04",
+        "itemList":[
+        { "name":"HeavenSword", "type":"WeaponsEvolved", "id":"HeavenSword_00" },
+        { "name":"Cross", "type":"WeaponsBase", "id":"HeavenSword_01" },
+        { "name":"Clover", "type":"Passive", "id":"HeavenSword_02" }
+      ]},{
+        "id":"set_Blast_05",
+        "itemList":[
+        { "name":"Muramasa", "type":"WeaponsEvolved", "id":"Muramasa_00" },
+        { "name":"NightSword", "type":"WeaponsBase", "id":"Muramasa_01" },
+        { "name":"StoneMask", "type":"Passive", "id":"Muramasa_02" }
+      ]},{
+        "id":"set_Blast_06",
+        "itemList":[
+        {"name":"Millionaire", "type":"WeaponsEvolved", "id":"Millionaire_00" },
+        {"name":"FlashArrow", "type":"WeaponsBase", "id":"Millionaire_01" },
+        {"name":"Bracer", "type":"Passive", "id":"Millionaire_02" },
+        {"name":"Clover", "type":"Passive", "id":"Millionaire_03" }
+      ]},{
+        "id":"set_Blast_07",
+        "itemList":[
+        { "name":"BooRooBoolle", "type":"WeaponsEvolved", "id":"BooRooBoolle_00" },
+        { "name":"MilleBolleBlu", "type":"WeaponsBase", "id":"BooRooBoolle_01" },
+        { "name":"Spellbinder", "type":"Passive", "id":"BooRooBoolle_02" }
+      ]}
     ]
   }
-}
+
+
+
+
+]

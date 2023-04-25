@@ -1,6 +1,6 @@
 import './App.css';
 import Build from './Build/Build.js';
-import CategoryF from './Container/Container.js';
+import CategoryFunc from './Container/Container.js';
 import CategoryList from './data/CategoryList.json'
 
 function App() {
@@ -8,12 +8,9 @@ function App() {
     <div className="App">
 
       <div className="CategoryList">
-          <CategoryF categoryR={CategoryList.onTheWay}/>
-          <CategoryF categoryR={CategoryList.blast}/>
-          <CategoryF categoryR={CategoryList.orbit}/>
-          <CategoryF categoryR={CategoryList.screen}/>
-          <CategoryF categoryR={CategoryList.special}/>
-        </div>
+      {CategoryList.map(categoryList_elem => <CategoryFunc categoryList_elem={categoryList_elem} key={categoryList_elem.title} />)}
+      {/*CategoryList.map( function (e) { return (<Category category={e} />)})*/}
+      </div>
 
         <Build />
     </div>

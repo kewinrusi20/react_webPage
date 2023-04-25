@@ -2,16 +2,15 @@ import "./Category.css"
 import "./Set.css"
 import "./Item.css"
 
-
 /*CATEGORY*/
-function CategoryF({categoryR}) {
-    
+function CategoryFunc({categoryList_e}) {
     return(
         <div className="CategoryCss">
-            <h3>{categoryR.title}</h3>
+            <h3>{categoryList_e.title}</h3>
 
             <div className="CategoryCssGroups">
-                {categoryR.sets.map(setE => <SetF setR={setE}/> )}
+                {categoryList_e.setList.map(set_e => 
+                    <SetFunc set_e={set_e} key={set_e.id} />)}
             </div>
 
         </div>
@@ -20,31 +19,30 @@ function CategoryF({categoryR}) {
 
 
 /*SET*/
-function SetF({setR}) {
-
+function SetFunc({set_e}) {
     return(
         <div className="SetCss">
-          {setR.map(itemE => <Item itemR={itemE}/> )}
+            {set_e.itemList.map(item_e => 
+                <ItemFunc item_e={item_e} key={item_e.id} /> )}
         </div>
     )
   }
 
-
+  
 /*ITEM*/
-
-function onClickItem(event){
-	console.log(event.target.id)
-}
-
-function Item({itemR}) {
-    const imagePath = "/assets/" + itemR.type + "/" + itemR.name +".png" ;
-    //console.log(imagePath);e
+function ItemFunc({item_e}) {
+    const imagePath = "/assets/" + item_e.type + "/" + item_e.name +".png" ;
 
     return (
-        <div className="ItemCss" id={itemR.name} onClick={onClickItem} >
-            <img src={imagePath} alt={itemR.name} />
+        <div className="ItemCss" id={item_e.name} onClick={OnClickFunc} >
+            <img src={imagePath} alt={item_e.name} />
         </div>
     )
 }
 
-export default CategoryF;
+
+function OnClickFunc(event) {
+    console.log(event.target.id)
+}
+
+export default CategoryFunc;
