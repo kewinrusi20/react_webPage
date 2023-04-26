@@ -13,6 +13,7 @@ function Build() {
             <Button text="Back" />
             <Button text="Reset" />
             <ItemRender />
+            <BuildReset />
         </div>
     )
 }
@@ -49,5 +50,15 @@ function ItemPrint({item_e}) {
 function ChildComponentFunc(props) {
     return <div>{props.definitely_not_a_key}</div>;
 }
+
+
+function BuildReset() {
+    return(
+        <div className="Button" onClick={ () => {myBuild.length = 0} } >
+        </div>
+    )
+}
+w
+
 
 export default Build;
