@@ -25,12 +25,25 @@ function ItemRender() {
         setChildComponents([ChildComponentFunc, <ChildComponentFunc definitely_not_a_key={childComponents.length} />]);
       };
 
+
+
     return(
         <div className="ItemRender" >
             {myBuild.map(item_e => <ItemPrint item_e={item_e} definitely_not_a_key={item_e.id} /> )}
             {childComponents}
 
-            <button className="Button2" onClick={onClickFunc}>Render New Elements</button>
+            <button className="Button2" onClick={onClickFunc}>Render Build</button>
+        </div>
+    )
+}
+
+function ChildComponentFunc(props) {
+    return <div>{props.definitely_not_a_key}</div>;
+}
+
+function BuildReset() {
+    return(
+        <div className="Button" onClick={ () => {myBuild.length = 0} } >
         </div>
     )
 }
@@ -47,18 +60,11 @@ function ItemPrint({item_e}) {
 }
 
 
-function ChildComponentFunc(props) {
-    return <div>{props.definitely_not_a_key}</div>;
-}
 
 
-function BuildReset() {
-    return(
-        <div className="Button" onClick={ () => {myBuild.length = 0} } >
-        </div>
-    )
-}
-w
+
+
+
 
 
 export default Build;

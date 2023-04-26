@@ -45,19 +45,10 @@ function ItemFunc({item_e}) {
 
 
 function OnClickFunc(e, item_e) {
-    myBuild[iOf_myBuild] = item_e;
-    iOf_myBuild++;
-
-
-    console.log(myBuild);
-
-
-
-    const imagePath = "/assets/" + item_e.type + "/" + item_e.name +".png" ;
-    
-    <div className="ItemCss">
-        <img src={imagePath} alt={item_e.name} />
-    </div>
+    if (!myBuild.includes(item_e)) {
+        myBuild[iOf_myBuild] = item_e;
+        iOf_myBuild++;
+    }
 }
 
 
