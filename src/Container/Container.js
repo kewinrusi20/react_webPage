@@ -2,6 +2,9 @@ import "./Category.css"
 import "./Set.css"
 import "./Item.css"
 
+let myBuild = [];
+let iOf_myBuild = 0;
+
 /*CATEGORY*/
 function CategoryFunc({categoryList_e}) {
     return(
@@ -34,15 +37,30 @@ function ItemFunc({item_e}) {
     const imagePath = "/assets/" + item_e.type + "/" + item_e.name +".png" ;
 
     return (
-        <div className="ItemCss" id={item_e.name} onClick={OnClickFunc} >
+        <div className="ItemCss" id={item_e.name} onClick={ (e) => {OnClickFunc(e, item_e)} } >
             <img src={imagePath} alt={item_e.name} />
         </div>
     )
 }
 
 
-function OnClickFunc(event) {
-    console.log(event.target.id)
+function OnClickFunc(e, item_e) {
+    myBuild[iOf_myBuild] = item_e;
+    iOf_myBuild++;
+
+
+    console.log(myBuild);
+
+
+
+    const imagePath = "/assets/" + item_e.type + "/" + item_e.name +".png" ;
+    
+    <div className="ItemCss">
+        <img src={imagePath} alt={item_e.name} />
+    </div>
 }
 
+
+
 export default CategoryFunc;
+export { myBuild };
