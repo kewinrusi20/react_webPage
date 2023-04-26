@@ -1,9 +1,7 @@
 import './Button2.css';
 import "./Build.css"
 import "./../Container/Item.css";
-
 import Button from './../Button/Button.js'
-
 import { myBuild } from './../Container/Container.js';
 import React, { useState } from 'react';
 
@@ -22,18 +20,14 @@ function Build() {
 
 function ItemRender() {
     const [childComponents, setChildComponents] = useState([]);
-
     const onClickFunc = () => {
-        setChildComponents([childComponents, <ChildComponent key={childComponents.length} />]);
+        setChildComponents([ChildComponentFunc, <ChildComponentFunc definitely_not_a_key={childComponents.length} />]);
       };
 
-
-
     return(
-        <div className="ItemRender" onClick={() => setChildComponents([childComponents, <ChildComponent />])} >
-            {myBuild.map(item_e => <ItemPrint item_e={item_e} key={item_e.id} /> )}
+        <div className="ItemRender" >
+            {myBuild.map(item_e => <ItemPrint item_e={item_e} definitely_not_a_key={item_e.id} /> )}
             {childComponents}
-
 
             <button className="Button2" onClick={onClickFunc}>Render New Elements</button>
         </div>
@@ -52,8 +46,8 @@ function ItemPrint({item_e}) {
 }
 
 
-function ChildComponent(props) {
-    return <div>{props.key}</div>;
+function ChildComponentFunc(props) {
+    return <div>{props.definitely_not_a_key}</div>;
 }
 
 export default Build;
