@@ -29,7 +29,7 @@ function ItemRender() {
 
     return(
         <div className="ItemRender" >
-            {myBuild.map(item_e => <ItemPrint item_e={item_e} definitely_not_a_key={item_e.id} /> )}
+            {myBuild.map(item_e => <ItemPrint item_e={item_e} definitely_not_a_key={item_e.id} key={item_e.id} /> )}
             {childComponents}
 
             <button className="Button2" onClick={onClickFunc}>Render Build</button>
