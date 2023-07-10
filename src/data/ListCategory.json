@@ -1,0 +1,10 @@
+[
+    { 
+        "title":"Orbit",
+        "composition":[
+            { "name":"combo_LaBorra", "id":"Orbit_01" }]},
+    { 
+        "title":"Front",
+        "composition":[
+            { "name":"combo_ThousandEdge", "id":"Front_01" }]}
+]

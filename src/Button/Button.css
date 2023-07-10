@@ -1,4 +1,4 @@
-.Button {
+.controllButton {
     background-color: white;
     color: black;
     display: inline-block;
@@ -12,7 +12,7 @@
     font-size: 12px;
 }
 
-.Button:hover {
+.controllButton:hover {
     background-color: rgb(96, 36, 36);
     color: white;
 }

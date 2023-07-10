@@ -1,0 +1,18 @@
+[
+    {
+        "title":"combo_LaBorra",
+        "composition":[
+            { "name":"LaBorra", "id":"combo_LaBorra_01" },
+            { "name":"SantaWater", "id":"combo_LaBorra_02" },
+            { "name":"Attractorb", "id":"combo_LaBorra_03" }
+            ]
+        },
+    {
+        "title":"combo_ThousandEdge",
+        "composition":[
+            { "name":"ThousandEdge", "id":"combo_ThousandEdge_01" },
+            { "name":"Knife", "id":"combo_ThousandEdge_02" },
+            { "name":"Bracer", "id":"combo_ThousandEdge_03" }
+        ]
+    }
+]
