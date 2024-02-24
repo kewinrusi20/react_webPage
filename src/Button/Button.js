@@ -2,7 +2,7 @@ import './Button.css';
 
 function Button({text}) {
   return (
-    <div className="Button">
+    <div className="controllButton">
         {text}
     </div>
   );

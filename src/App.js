@@ -1,20 +1,30 @@
-import './App.css';
-import Build from './Build/Build.js';
-import CategoryFunc from './Container/Container.js';
-import CategoryList from './data/CategoryList.json'
+import "./App.css";
+import RenderCatalog from "./Render/RenderCatalog";
+import RegisterItems from "./Elaborate/RegisterItems"
+import ElaborateList, {RenderList} from "./Elaborate/ElaborateList";
 
 function App() {
-  return (
-    <div className="App">
+    const handleClick1 = () => {
+        RenderList();
+    };
 
-      <div className="CategoryList">
-      {CategoryList.map(categoryList_e => <CategoryFunc categoryList_e={categoryList_e} key={categoryList_e.title} />)}
-      </div>
+    const handleClick2 = () => {
+        ElaborateList();
+    };
 
-        <Build />
-    </div>
-  );
+
+
+
+
+
+    return (
+        <div className="App">
+            <RenderCatalog/>
+
+            <button onClick={handleClick1}></button>
+            <button onClick={handleClick2}></button>
+        </div>
+    );
 }
-
 
 export default App;

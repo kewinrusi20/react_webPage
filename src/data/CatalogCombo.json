@@ -1,0 +1,18 @@
+[
+    {
+        "title":"combo_LaBorra",
+        "composition":[
+            { "name":"LaBorra", "typeWeapon":"Evolved", "id":"combo_LaBorra_01" },
+            { "name":"SantaWater", "typeWeapon":"Basic", "id":"combo_LaBorra_02" },
+            { "name":"Attractorb", "typeWeapon":"Passive", "id":"combo_LaBorra_03" }
+            ]
+        },
+    {
+        "title":"combo_SoulEater",
+        "composition":[
+            { "name":"SoulEater", "typeWeapon":"Evolved", "id":"combo_SoulEater_01" },
+            { "name":"Garlic", "typeWeapon":"Basic", "id":"combo_SoulEater_02" },
+            { "name":"Pummarola", "typeWeapon":"Passive", "id":"combo_SoulEater_03" }
+        ]
+    }
+]
